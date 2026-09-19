@@ -5,7 +5,7 @@ A modular dataset within the Plant Vascular Variants Database.
 This dataset expands upon the "Global Survey of Vascular Variants Across Seed Plants" by providing species-level coding for the occurrence and structural variation of medullary bundles within Caryophyllales.
 
 ## Associated Publication
-Cunha-Neto IL, Rossetto RFS, Gerolamo CS, Hernández-Gutiérrez R, Sukhorukov AP, Kushunina M, Melo-de-Pinna GFA, Angyalossy A. 2024. [Medullary bundles in Caryophyllales: form, function, and evolution] (https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.19342). New Phytologist 241: 2589-2605.  
+Cunha-Neto IL, Rossetto RFS, Gerolamo CS, Hernández-Gutiérrez R, Sukhorukov AP, Kushunina M, Melo-de-Pinna GFA, Angyalossy A. 2024. Medullary bundles in Caryophyllales: form, function, and evolution]. New Phytologist 241: 2589-2605. https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.19342
 
 ## Dataset structure
 
