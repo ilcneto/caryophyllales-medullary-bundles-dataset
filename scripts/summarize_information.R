@@ -8,13 +8,9 @@ library(ggplot2)
 library(readr)
 library(scales)
 
-setwd("/Users/israelneto/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Work/Research/VV Database/GitHub_PVVD/data/taxa-datasets/Caryophyllales/caryophyllales-medullary-bundles-dataset")
-
-csv_path <- "/Users/israelneto/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Work/Research/VV Database/GitHub_PVVD/data/taxa-datasets/Caryophyllales/caryophyllales-medullary-bundles-dataset/Dataset.csv"
-
 # Path to CSV
-#csv_path <- file.path("data", "Dataset.csv")
-#if (!file.exists(csv_path)) stop(paste("CSV not found at", csv_path))
+csv_path <- file.path("data", "Dataset.csv")
+if (!file.exists(csv_path)) stop(paste("CSV not found at", csv_path))
 
 # Read
 taxa <- read_csv(csv_path, show_col_types = FALSE)
@@ -72,19 +68,8 @@ p <- ggplot(summary_df, aes(y = level, x = count)) +
   )
 
 # Save 
-#out_dir <- "figures"
-#if (!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
-
-ggsave(
-  file.path(
-    "/Users/israelneto/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Work/Research/VV Database/GitHub_PVVD/data/taxa-datasets/Caryophyllales/caryophyllales-medullary-bundles-dataset",
-    "medullary_bundles_taxonomic_coverage.png"
-  ),
-  plot = p,
-  width = 7,
-  height = 4,
-  dpi = 300
-)
-
+ggsave("summary/medullary_bundles_taxonomic_coverage.png")
 cat("Figure saved successfully!\n")
 ``
+
+#End of code
