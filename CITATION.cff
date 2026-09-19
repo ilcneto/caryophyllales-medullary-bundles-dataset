@@ -4,7 +4,7 @@ message: "If you use this database, please cite it as below."
 authors:
   - family-names: Cunha-Neto
     given-names: Israel L.
-repository-code: "https://github.com/ilcneto/plant-vascular-variants-database"
+repository-code: "https://github.com/ilcneto/caryophyllales-medullary-bundles-dataset"
 type: dataset
 license: CC-BY-4.0
 keywords:
@@ -14,5 +14,5 @@ keywords:
   - biodiversity
   - plants
 version: 1.0.0
-doi: 10.5281/zenodo.18704992
+doi: 10.5281/zenodo.22849823
 date-released: 2026-09-18
