@@ -29,7 +29,7 @@ Cunha-Neto IL, Rossetto RFS, Gerolamo CS, Hernández-Gutiérrez R, Sukhorukov AP
 ## How to cite 
 If using this dataset, please cite:
 - The associated publication (see above).    
-- Cunha-Neto 2026. Caryophyllales Medullary Bundles Dataset (v1.0.0) [Dataset]. Zenodo. DOI: 10.5281/zenodo.22849822.
+- Cunha-Neto 2026. Caryophyllales Medullary Bundles Dataset (v1.0.0) [Dataset]. Zenodo. DOI: https://doi.org/10.5281/zenodo.22849823.
 
 When using the concept, terminology, or definition of vascular variants, please cite:   
 - Cunha-Neto I.L. 2023. Vascular variants in seed plants - a developmental approach. AoB PLANTS, 15(4): 1-15.
